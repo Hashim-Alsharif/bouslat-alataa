@@ -2,11 +2,13 @@
 
 مشروع مستقل لتحليل الحضور المسجل للجمعيات والمؤسسات الأهلية في المناطق الـ13، مع لوحة عربية تفاعلية تعمل محلياً ومقال موثق عن القطاع غير الربحي ودوره المجتمعي.
 
-[English](README.md) · [ملفات اللوحة](docs/index.html) · [المقال](docs/article.ar.md) · [المقال PDF](docs/article.pdf) · [الكتاب التعليمي](docs/local-analysis-guide.pdf)
+[English](README.md) · [افتح اللوحة مباشرة](https://hashim-alsharif.github.io/bouslat-alataa/) · [المقال](docs/article.ar.md) · [المقال PDF](docs/article.pdf) · [الكتاب التعليمي](docs/local-analysis-guide.pdf)
 
 ![معاينة لوحة بوصلة العطاء](docs/preview.png)
 
 ## ابدأ من هنا
+
+**[افتح اللوحة مباشرة من هذا الرابط](https://hashim-alsharif.github.io/bouslat-alataa/)** دون تنزيل الملفات أو تثبيت برامج. ينشر GitHub Pages الملفات الثابتة من `main /docs`؛ تعمل الفلاتر وتصدير CSV داخل المتصفح.
 
 افتح `docs/index.html` لعرض اللوحة. تشمل فلاتر المنطقة والنوع والتخصص، ومقارنة جمعيات الخدمات الاجتماعية بسكان 2022، وجودة البيانات، والمقال. تصدير CSV يعكس العرض الحالي. الملفات ثابتة ولا تتصل بنموذج أو خدمة مدفوعة.
 

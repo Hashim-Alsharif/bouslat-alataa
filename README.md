@@ -2,7 +2,7 @@
 
 An Arabic, reproducible explorer of recorded nonprofit associations and foundations across Saudi Arabia's 13 regional publications. Python prepares the analysis; an offline HTML/CSS/JavaScript dashboard presents the results.
 
-[العربية](README.ar.md) · [Dashboard](docs/index.html) · [Article](docs/article.ar.md) · [Article PDF](docs/article.pdf) · [Learning guide](docs/local-analysis-guide.pdf)
+[العربية](README.ar.md) · [Live dashboard](https://hashim-alsharif.github.io/bouslat-alataa/) · [Article](docs/article.ar.md) · [Article PDF](docs/article.pdf) · [Learning guide](docs/local-analysis-guide.pdf)
 
 ![Dashboard preview](docs/preview.png)
 
@@ -16,6 +16,8 @@ An Arabic, reproducible explorer of recorded nonprofit associations and foundati
 - Nonprofit companies are discussed in the article, but are not counted in these datasets.
 
 ## View the dashboard
+
+**[Open the live dashboard](https://hashim-alsharif.github.io/bouslat-alataa/)** - no download or installation required. GitHub Pages serves the static files from `main /docs`. Filters and CSV export run in your browser.
 
 Open `docs/index.html` in a browser. It works offline with local assets, including filtering and CSV export. Alternatively, from the repository root:
 
