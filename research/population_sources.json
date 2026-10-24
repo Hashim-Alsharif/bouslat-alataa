@@ -1,0 +1,42 @@
+{
+  "title": "إحصاءات السكان حسب المناطق الإدارية والجنس والجنسية - سنوي",
+  "publisher": "الهيئة العامة للإحصاء",
+  "access_platform": "بيانات السعودية — وزارة الاقتصاد والتخطيط",
+  "retrieved_on": "2026-10-23",
+  "download_method": "Public API URL obtained using the explorer Copy API button; visible regional values cross-checked against JSON",
+  "api_url": "https://api.datasaudi.sa/tesseract/data.jsonrecords?cube=gastat_population_province_sex_nationality&locale=ar&drilldowns=Province%2CSex%2CYear%2CNationality&measures=Population&include=Sex%3A3%3BYear%3A2022%3BNationality%3A3&limit=100%2C0",
+  "explorer_url": "https://datasaudi.sa/ar/data-explorer?cube=gastat_population_province_sex_nationality&locale=ar&drilldowns=Province%2CSex%2CYear%2CNationality&measures=Population&include=Sex%3A3%3BYear%3A2022%3BNationality%3A3&limit=100%2C0&panel=table",
+  "publisher_link_as_provided": "https://www.stats.gov.sa/en/statistics-tabs?tab=436327&category=127396",
+  "years_api_url": "https://api.datasaudi.sa/tesseract/data.jsonrecords?cube=gastat_population_province_sex_nationality&locale=ar&drilldowns=Province%2CSex%2CYear%2CNationality&measures=Population&include=Sex%3A3%3BNationality%3A3&limit=10000%2C0",
+  "selected_file": "data_raw/population/datasaudi_population_2022.json",
+  "selected_year": 2022,
+  "population_definition": "جميع السكان، سعودي وغير سعودي، الجنسين؛ إجمالي واحد لكل منطقة",
+  "scope": "13 administrative regions, plus one national total row excluded before regional aggregation",
+  "year_selection": "Latest complete regional year in this checked cube is 2022; 2023 and 2024 contain national total rows only. This does not establish the latest year in all possible official sources.",
+  "license_policy_url": "https://www.stats.gov.sa/ar/use-policy",
+  "license_policy_checked_on": "2026-10-23",
+  "license_policy_sections": [
+    "1.2.2",
+    "1.4.1",
+    "1.4.2"
+  ],
+  "license_note": "Official policy permits reuse with GASTAT attribution and clear disclosure of changes. Derived calculations must not be presented as official GASTAT statistics or imply endorsement. No logo reused.",
+  "files": [
+    {
+      "path": "data_raw/population/datasaudi_population_2022.json",
+      "bytes": 3137,
+      "sha256": "e0a13a4dbd2779dac036c40415007b428450a46083346a65b0278ba9d8607caf"
+    },
+    {
+      "path": "data_raw/population/datasaudi_population_years.json",
+      "bytes": 32220,
+      "sha256": "00b9c0d4e023e8daa577754f309a2e5b2887f35590d3efc9244b9e182fe9d1c4"
+    }
+  ],
+  "examined_rejected_candidate": {
+    "title": "Population Estimates Publication 2024.xlsx",
+    "sha256": "4dc73233b7aa5ec64eb68c92a765245b13b58ec25c27a84128da8a86f7276212",
+    "reason": "National age/sex/nationality sheet only; no regional table. Not used for regional rates."
+  },
+  "entity_input_sha256": "f5fa14cb20e8de6a8ba44b3c5718c84b4627e53a949ce00be2a2bf3c37e2d49d"
+}

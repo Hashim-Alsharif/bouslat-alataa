@@ -1,0 +1,12 @@
+.venv/
+.tools/
+tmp/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+*.pem
+*.key
+*.zip
+Thumbs.db
+.DS_Store

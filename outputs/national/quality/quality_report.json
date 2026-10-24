@@ -1,0 +1,52 @@
+{
+  "coverage": {
+    "catalogued": 13,
+    "readable": 13,
+    "unavailable_regions": [],
+    "complete": true,
+    "scope": "Regional publication availability only; not registry completeness."
+  },
+  "records": 6403,
+  "entity_types": {
+    "جمعية أهلية": 5796,
+    "مؤسسة أهلية": 607
+  },
+  "unique_published_national_ids": 6341,
+  "records_with_national_id": 6341,
+  "records_without_national_id": 62,
+  "complete_national_entity_deduplication": false,
+  "counting_unit": "Source entity record. Records without a published national identifier are not nationally deduplicated.",
+  "checks": {
+    "all_13_regions_catalogued": true,
+    "source_bytes_unchanged": true,
+    "all_supplied_companion_bytes_unchanged": true,
+    "all_readable_source_records_preserved": true,
+    "all_published_original_cells_preserved": true,
+    "published_national_identifiers_unique": true,
+    "published_identifiers_are_ten_digit_strings": true,
+    "source_record_keys_unique": true,
+    "unpublished_national_identifiers_remain_blank": true,
+    "published_id_columns_have_no_missing_ids": true,
+    "unavailable_regions_have_no_zero_counts": true,
+    "region_counts_reconcile": true,
+    "entity_types_preserved": true,
+    "nonstandard_main_values_flagged": true,
+    "makkah_subcategory_1_excluded_from_comparisons": true,
+    "csv_identifier_roundtrip": true
+  },
+  "issue_counts": {
+    "SUBCATEGORY_LEVELS_IDENTICAL_SOURCE": 1365,
+    "MAIN_DESCRIPTION_CONFLICT": 234,
+    "LOCATION_UNSPECIFIED": 109,
+    "NATIONAL_ID_NOT_PUBLISHED": 62,
+    "LOCATION_UNIT_NOT_PUBLISHED": 62,
+    "NONSTANDARD_MAIN_CLASSIFICATION": 24,
+    "LOCATION_CROSS_FILE_REVIEW": 5,
+    "SOURCE_CELL_BLANK": 1
+  },
+  "entities_with_review_issues": 1705,
+  "standard_main_records": 6379,
+  "source_cells_unchanged": true,
+  "observation_scope": "Available regional publications; not a simultaneous or complete national census.",
+  "subcategory_1_comparison_excludes": "makkah: all 1365 source rows have identical first/second subcategory values; publisher review needed."
+}

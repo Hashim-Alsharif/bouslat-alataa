@@ -1,0 +1,12 @@
+{
+  "regional_files_readable": 13,
+  "source_records": 6403,
+  "unique_published_national_ids": 6341,
+  "jouf_unpublished_identifiers_preserved": 62,
+  "csv_xlsx_pairs_rechecked": 2,
+  "all_pipeline_checks_passed": 16,
+  "executed_notebook_code_cells": 17,
+  "national_identifier_completeness_gate_rejected_as_expected": true,
+  "qassim_default_cleaner_matches_previous_output": true,
+  "source_record_keys_unique": true
+}

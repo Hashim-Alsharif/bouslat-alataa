@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="بوصلة العطاء: لوحة عربية لاستكشاف سجلات الجمعيات والمؤسسات الأهلية ومقارنتها بسكان 2022 مع مصادر واضحة.">
+  <title>بوصلة العطاء | لوحة التحليل</title>
+  <link rel="stylesheet" href="assets/dashboard.css">
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#overview" aria-label="بوصلة العطاء، النظرة العامة"><span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="19"/><path d="M31 15 27 27 15 33 20 21Z"/><path d="M24 2v5M24 41v5M2 24h5M41 24h5"/></svg></span><span><strong>بوصلة العطاء</strong><small>قراءة البيانات. فهم الحضور.</small></span></a>
+  <div class="nav-label">مساحة التحليل</div>
+  <nav aria-label="أقسام اللوحة">
+    <button data-view="overview" class="nav-item active"><span class="nav-icon">▦</span> نظرة عامة <span class="nav-arrow">‹</span></button>
+    <button data-view="focus" class="nav-item"><span class="nav-icon">◈</span> الخدمات الاجتماعية</button>
+    <button data-view="quality" class="nav-item"><span class="nav-icon">✓</span> جودة البيانات والمصادر</button>
+    <button data-view="article" class="nav-item"><span class="nav-icon">≡</span> القطاع وخدمة المجتمع</button>
+  </nav>
+  <div class="sidebar-note"><span class="mini-label">عن المشروع</span><p>استكشاف الحضور المسجل للجمعيات والمؤسسات الأهلية في المناطق الـ13.</p><span class="sidebar-tag">مشروع تحليلي مستقل</span></div>
+  <div class="sidebar-footer"><span class="avatar">هـ</span><span>إعداد هاشم الشريف<small>Python · HTML · بيانات عامة</small></span></div>
+</aside>
+<main class="main">
+  <header class="topbar"><span class="breadcrumb">مساحة المشاريع <span>/</span> بوصلة العطاء</span><span class="version"><span class="status-dot"></span> لقطة تحليلية موثقة <b>24 أكتوبر 2026</b></span></header>
+  <section class="page-heading"><div><div class="eyebrow">SAUDI NONPROFIT DATA EXPLORER</div><h1 id="page-title">الحضور المسجل للقطاع الأهلي</h1><p id="page-description">المناطق والتخصصات في قراءة واحدة، مع سياق يوضح ما تعنيه الأرقام.</p></div><div class="actions"><button id="export-button" class="button secondary"><span>↓</span> تصدير CSV</button><button id="print-button" class="button primary"><span>▣</span> طباعة العرض</button></div></section>
+  <section id="filters" class="filter-panel" aria-label="مرشحات التحليل"><div class="filter-heading"><span class="filter-symbol">☷</span><strong>تخصيص العرض</strong></div><label>المنطقة<select id="region-filter" aria-label="المنطقة"><option value="all">جميع المناطق</option></select></label><label>نوع الكيان<select id="type-filter" aria-label="نوع الكيان"><option value="all">جميع الأنواع</option></select></label><label>التخصص الرئيسي<select id="group-filter" aria-label="التخصص الرئيسي"><option value="all">جميع التخصصات</option></select></label><button id="reset-button" class="reset">↺ إعادة التعيين</button></section>
+  <div class="scope-line"><div id="active-scope">جميع المناطق · جميع الأنواع · جميع التخصصات</div><span>منشورات الجهات 2025–2026 <i></i> المقام السكاني عند استخدامه: 2022</span></div>
+  <div id="live-status" class="sr-only" aria-live="polite"></div>
+  <section id="overview-view" class="view" aria-label="النظرة العامة"></section>
+  <section id="focus-view" class="view" aria-label="مقارنة الخدمات الاجتماعية" hidden></section>
+  <section id="quality-view" class="view" aria-label="جودة البيانات" hidden></section>
+  <section id="article-view" class="view" aria-label="المقال" hidden></section>
+  <footer class="footer"><div><strong>بوصلة العطاء</strong> <span>تحليل وصفي من إعداد المشروع؛ لا يعني اعتماد الجهات الناشرة للنتائج.</span></div><div>البيانات تغطي جمعيات ومؤسسات أهلية. لا تتضمن إحصاء الشركات غير الربحية.</div></footer>
+</main>
+<script src="assets/data.js"></script><script src="assets/dashboard.js"></script>
+</body></html>

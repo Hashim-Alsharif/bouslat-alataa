@@ -1,0 +1,84 @@
+{
+  "checked_on": "2026-10-23",
+  "comparisons": [
+    {
+      "slug": "asir",
+      "region": "عسير",
+      "sheet_compared": "عسير",
+      "encoding": "cp1256",
+      "data_records": 536,
+      "source_columns": [
+        "الرقم الوطني الموحد",
+        "اسم الكيان",
+        "المدينة",
+        "التصنيف النوعي",
+        "التصنيف الفرعي الاول",
+        "التصنيف الفرعي الثاني",
+        "نوع الكيان",
+        "جهة الإشراف"
+      ],
+      "csv_xlsx_all_data_cells_equal": true,
+      "formula_cells": 0,
+      "national_id_column_present": true,
+      "type_counts": {
+        "مؤسسة أهلية": 15,
+        "جمعية أهلية": 521
+      },
+      "attachments": [
+        {
+          "format": "CSV",
+          "original_filename": "Non profit entities in the Asir Region (2).csv",
+          "local_file": "data_raw/user_supplied/ncnp_asir.csv",
+          "sha256": "993bcc97544d05bc8d4c788426064af9618c6f4408692995e2b27f9f6723c54e",
+          "bytes": 155603
+        },
+        {
+          "format": "XLSX",
+          "original_filename": "Non profit entities in Asir Region (1).xlsx",
+          "local_file": "data_raw/user_supplied/ncnp_asir.xlsx",
+          "sha256": "7922e646951fca221e2c6286658d8cae9a396c888f9123219b441c0aedf54c70",
+          "bytes": 68833
+        }
+      ]
+    },
+    {
+      "slug": "jouf",
+      "region": "الجوف",
+      "sheet_compared": "الجوف",
+      "encoding": "utf-8-sig",
+      "data_records": 62,
+      "source_columns": [
+        "اسم الكيان",
+        "المدينة",
+        "التصنيف النوعي",
+        "التصنيف الفرعي الاول",
+        "التصنيف الفرعي الثاني",
+        "نوع الكيان",
+        "جهة الإشراف"
+      ],
+      "csv_xlsx_all_data_cells_equal": true,
+      "formula_cells": 0,
+      "national_id_column_present": false,
+      "type_counts": {
+        "جمعية أهلية": 60,
+        "مؤسسة أهلية": 2
+      },
+      "attachments": [
+        {
+          "format": "CSV",
+          "original_filename": "Non profit entities in the Al Jouf region (2).csv",
+          "local_file": "data_raw/user_supplied/ncnp_jouf.csv",
+          "sha256": "5611196a27c657b37b4ea9fb70cd6698d9d67980ea10a5ba21461d145a1d2a21",
+          "bytes": 30100
+        },
+        {
+          "format": "XLSX",
+          "original_filename": "Non profit entities in the Al Jouf region xlsx (1).xlsx",
+          "local_file": "data_raw/user_supplied/ncnp_jouf.xlsx",
+          "sha256": "752f2a1c7650809e93225428914b91450e137e960752acf5e6f6eeb44b88691b",
+          "bytes": 41165
+        }
+      ]
+    }
+  ]
+}

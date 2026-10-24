@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-23",
+  "dataset_id": "2b6dacda-3aac-4aa6-9824-43f33f71963b",
+  "title": "الكيانات غير الربحية في منطقة القصيم",
+  "publisher": "المركز الوطني لتنمية القطاع غير الربحي",
+  "dataset_url": "https://open.data.gov.sa/ar/datasets/view/2b6dacda-3aac-4aa6-9824-43f33f71963b",
+  "resources_url": "https://open.data.gov.sa/ar/datasets/view/2b6dacda-3aac-4aa6-9824-43f33f71963b/resources",
+  "download_method": "Official resource menu, CSV download through browser",
+  "downloaded_on": "2026-10-23",
+  "source_filename": "Non profit entities in Al Qassim region csv.csv",
+  "local_file": "data_raw/ncnp_qassim_source.csv",
+  "source_sha256": "86eb8568793376e5cf63040ee226cd4fe6a71d1658a9c5119328b725202cfe8e",
+  "metadata": {
+    "language": "Arabic",
+    "frequency": "Annual",
+    "reference_period_as_displayed": "2026-01-01 - 2026-12-31",
+    "updated_at_as_displayed": "2026-03-09 11:06:33",
+    "observation_date_caveat": "Reference-period metadata is not a per-entity observation date or a complete observation of future dates. CSV contains no time column."
+  },
+  "license": {
+    "dataset_card_explicitly_links_license": true,
+    "name_on_card": "رخصة البيانات المفتوحة",
+    "license_landing_url": "https://open.data.gov.sa/ar/pages/policies/license",
+    "license_pdf_url": "https://open.data.gov.sa/odp-public/static/ar/assets/Open_Data_License_Ar.pdf",
+    "local_copy": "research/licenses/saudi_open_data_license_ar.pdf",
+    "document_version": "2.0, March 2023",
+    "license_family_described_by_document": "Open Data Commons Attribution License",
+    "verified_pdf_pages": [3, 6, 7, 8],
+    "permissions_summary": "Use, reuse, extraction, derivative datasets and produced works are permitted subject to the license conditions.",
+    "conditions_for_project": [
+      "Attribute the dataset and publisher with a source URL.",
+      "Link or include the license and preserve original copyright/database/license notices.",
+      "Include an attribution/license notice with public charts and other produced works.",
+      "Retain the source license for redistributed or derived data; do not claim source data as exclusively owned or relicense it as project code.",
+      "Do not assume the database license grants independent trademark, privacy or other excluded rights."
+    ],
+    "attribution_for_outputs": "المصدر: المركز الوطني لتنمية القطاع غير الربحي، مجموعة الكيانات غير الربحية في منطقة القصيم على المنصة الوطنية للبيانات المفتوحة. البيانات متاحة بموجب رخصة البيانات المفتوحة المشار إليها في بطاقة المجموعة. يجب إرفاق رابط المجموعة ورابط الرخصة مع هذا الإسناد."
+  },
+  "collection_scope": "This official dataset only; no bulk scraping of the Nawa directory.",
+  "source_unmodified": true,
+  "suitability": "Suitable for a Qassim pilot on registered entities, types and classifications after geographic/category normalization. It is not evidence of actual service coverage, unmet need or a historical forecasting dataset."
+}

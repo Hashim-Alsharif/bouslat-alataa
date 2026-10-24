@@ -1,0 +1,11 @@
+{
+  "status": "SOCIAL_SERVICES_DELIVERY_OK",
+  "independently_reconciled_regions": 13,
+  "decimal_rate_checks": 13,
+  "rejected_join_cases": [
+    "missing_region",
+    "duplicate_region"
+  ],
+  "executed_code_cells": 12,
+  "source_hashes_match": true
+}

@@ -1,0 +1,13 @@
+{
+  "status": "SHOWCASE_DATA_OK",
+  "records": 6403,
+  "regions": 13,
+  "associations": 5796,
+  "foundations": 607,
+  "missing_ids": 62,
+  "review_records": 1705,
+  "social_associations": 1546,
+  "population_2022": 32175224,
+  "source_sha256": "f5fa14cb20e8de6a8ba44b3c5718c84b4627e53a949ce00be2a2bf3c37e2d49d",
+  "no_names_or_national_ids_in_browser_payload": true
+}

@@ -1,0 +1,13 @@
+{
+  "status": "FOCUS_POPULATION_OK",
+  "population_year": 2022,
+  "regions": 13,
+  "population_total": 32175224,
+  "social_service_records": 1607,
+  "association_records": 1546,
+  "foundation_records": 61,
+  "associations_without_id": 30,
+  "join": "one_to_one; 13 matched; 0 unmatched",
+  "national_rate_per_100k_population_2022": 4.804939353335971,
+  "source_hashes_checked": true
+}

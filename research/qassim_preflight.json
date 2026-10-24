@@ -1,0 +1,51 @@
+{
+  "source": "data_raw\\ncnp_qassim_source.csv",
+  "source_sha256": "86eb8568793376e5cf63040ee226cd4fe6a71d1658a9c5119328b725202cfe8e",
+  "source_bytes": 290825,
+  "encoding": "UTF-8 with optional BOM",
+  "csv_record_count_including_header_and_blanks": 714,
+  "header_record_number": 2,
+  "blank_records_before_header": 1,
+  "blank_records_after_header": 150,
+  "entity_records": 562,
+  "columns": [
+    "الرقم الوطني الموحد",
+    "اسم الكيان",
+    "المدينة",
+    "التصنيف النوعي",
+    "التصنيف الفرعي الاول",
+    "التصنيف الفرعي الثاني",
+    "نوع الكيان",
+    "جهة الإشراف"
+  ],
+  "malformed_record_count": 0,
+  "missing_or_whitespace_by_column": {
+    "الرقم الوطني الموحد": 0,
+    "اسم الكيان": 0,
+    "المدينة": 0,
+    "التصنيف النوعي": 0,
+    "التصنيف الفرعي الاول": 0,
+    "التصنيف الفرعي الثاني": 0,
+    "نوع الكيان": 0,
+    "جهة الإشراف": 0
+  },
+  "duplicate_full_record_excess": 0,
+  "duplicate_identifier_excess": 0,
+  "invalid_ten_digit_identifier_count": 0,
+  "entity_type_counts_as_published": {
+    "جمعية أهلية": 533,
+    "مؤسسة أهلية": 29
+  },
+  "distinct_city_labels_before_normalization": 15,
+  "distinct_main_classifications_before_normalization": 11,
+  "checks_scope": "Structural preflight only; no geographic, semantic or registry-completeness validation yet.",
+  "normalization_applied_to_source": false,
+  "limitations": [
+    "Empty records and an empty leading record are publisher formatting, not missing entity observations.",
+    "Entity types include associations and foundations; do not label all rows as associations.",
+    "Region is supplied by dataset provenance, not a column in this CSV.",
+    "City labels may include governorates or cities; they require reviewed geographic mapping.",
+    "There is no per-entity observation date or historical series in the CSV.",
+    "Zero blank cells does not establish factual correctness or complete coverage."
+  ]
+}
